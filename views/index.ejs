@@ -55,7 +55,7 @@
         <% } else { %>
         <div id="tag-error" class="tag-error">
           <!-- Show any errors that were sent from the backend -->
-          <%= error || ""%>
+          <%= locals.error || ""%>
         </div>
         <% } %>
       </section>
